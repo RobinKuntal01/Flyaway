@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style type="text/css">
+  
+ 
+  .mainBox{
+   display: flex;
+   justify-content: center;
+   
+   
+  }
+  
+  .inBox{
+	 margin:25px;
+	 padding:25px;
+  border-width: 25px;
+  border-color:yellow;
+ 
+  }
+  
+  h1{
+  color: red;
+  }
+  
+  </style>
+    <title>Payment Gateway Page</title>
+  </head>
+  <body>
+  <div class="mainBox">
+  <div class="inBox">
+    <h1>Payment Gateway</h1>
+    <form method="post">
+      <label for="name">Name on Card:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="card-number">Card Number:</label>
+      <input type="text" id="card-number" name="card-number" required><br>
+
+      <label for="expiry-date">Expiry Date:</label>
+      <input type="text" id="expiry-date" name="expiry-date" required><br>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" required><br>
+
+      <a  href ="congrats.html">Confirm</a>
+    </form>
+  </div>
+  </div>
+  </body>
+</html>
+

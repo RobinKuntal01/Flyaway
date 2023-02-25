@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>update flight details</title>
+</head>
+<body>
+
+<style type="text/css">
+  
+ 
+  .mainBox{
+   display: flex;
+   justify-content: center;
+   
+   
+  }
+  
+  .inBox{
+	 margin:25px;
+  border-width: 25px;
+  border-color:yellow;
+ 
+  }
+  
+  h1{
+  color: red;
+  }
+  
+  </style>
+
+
+
+<div class=mainBox>
+<div class=inBox>
+
+
+<h1>Update an existing Route</h1>
+
+<form action="update" method="post">
+
+ID: <input type="text" name="pid"><br><br>
+
+Update Airline Name: <input type="text" name="airline_name"><br><br>
+
+Update capacity: <input type="text" name="capacity"><br><br>
+
+Update Source:<input type="text" name="source"><br><br>
+
+Update Destination:<input type="text" name="destination"><br><br>
+
+Update Time Taken: <input type="text" name="time_taken"><br><br>
+
+Price: <input type="text" name="price"><br><br>
+
+<input type="submit" value="Update" >
+
+
+</form>
+
+
+<br><br>
+
+<h1>Delete a Route</h1>
+
+<form action="delete" method="post">
+Product id:<input type="text" name="id"><br><br> 
+<input type="submit" value="DELETE"><br><br> 
+</form>
+
+
+</div>
+</div>
+
+
+</body>
+</html>
